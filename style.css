@@ -22,7 +22,7 @@ h1 {
     margin: 0 auto 15px auto;
 }
 
-/* Vídeo da câmera posicionado dentro da tela do mockup */
+/* Vídeo da câmera posicionado dentro da tela do mockup. */
 #video {
     position: absolute;
     top: 19px;
