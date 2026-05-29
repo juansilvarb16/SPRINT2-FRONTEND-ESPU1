@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escaneamento de Texto com Câmera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Escaneamento de Texto com Câmera</h1>
+
+<div class="phone-container">
+
+  <!-- Vídeo da câmera (fica atrás do mockup) -->
+  <video id="video" autoplay playsinline muted></video>
+
+  <!-- Overlay de scanner (cantos + linha animada) -->
+  <div class="scanner-ui">
+    <div class="scan-frame">
+      <div class="corner tl"></div>
+      <div class="corner tr"></div>
+      <div class="corner bl"></div>
+      <div class="corner br"></div>
+      <div class="scan-line"></div>
+    </div>
+  </div>
+
+  
+  <img src="image-removebg-preview.png" class="phone-frame" alt="mockup celular">
+
+</div>
+
+<button id="capture">Capturar e Ler Texto</button>
+
+<pre id="output">Texto detectado aparecerá aqui...</pre>
+
+<div class="action-buttons" id="actionButtons">
+  <button id="copyBtn">Copiar Texto</button>
+  <button id="clearBtn" class="btn-secondary">Limpar</button>
+</div>
+
+<canvas id="canvas" style="display:none;"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
