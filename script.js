@@ -1,3 +1,8 @@
+// Tela
+document.getElementById('btnComecar').addEventListener('click', () => {
+    document.getElementById('telaBoasVindas').style.display = 'none';
+    document.getElementById('telaScanner').style.display = 'block';
+});
 (async () => {
 
     const video      = document.getElementById('video');

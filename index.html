@@ -3,19 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Escaneamento de Texto com Câmera</title>
+  <title>Escaneamento de Texto com Câmera UX na lente</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Escaneamento de Texto com Câmera</h1>
+<h1>Escaneamento de Texto com Câmera UX na lente</h1>
+
+<div id="telaBoasVindas">
+  <h2>Seja bem-vindo! 👋</h2>
+  <p>Aponte a câmera do seu celular para detectar e copiar textos automaticamente.</p>
+  <button id="btnComecar">Começar</button>
+</div>
+
+
+<div id="telaScanner" style="display:none;">
+
+  </div>
 
 <div class="phone-container">
 
-  <!-- Vídeo da câmera (fica atrás do mockup) -->
+
+  <!-- Vídeo da câmera -->
   <video id="video" autoplay playsinline muted></video>
 
-  <!-- Overlay de scanner (cantos + linha animada) -->
+  <!-- Overlay de scanner -->
   <div class="scanner-ui">
     <div class="scan-frame">
       <div class="corner tl"></div>

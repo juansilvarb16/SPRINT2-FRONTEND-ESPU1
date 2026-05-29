@@ -150,3 +150,22 @@ button:active {
 .btn-secondary:hover {
     background-color: #666 !important;
 }
+
+/* Tela */
+#telaBoasVindas {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 360px;
+}
+
+#telaBoasVindas h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#telaBoasVindas p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
