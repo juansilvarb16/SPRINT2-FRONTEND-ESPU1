@@ -1,4 +1,4 @@
-Esse projeto é um leitor de texto usando a câmera do celular ou computador. Ele funciona como um scanner simples: a câmera captura a imagem e o sistema identifica automaticamente o texto usando OCR com Tesseract.js.
+Esse projeto é um leitor de texto usando a câmera do celular ou computador. Ele funciona como um scanner simples: a câmera captura a imagem e o sistema identifica automaticamente o texto usando OCR.
 
 O projeto foi feito com HTML, CSS e JavaScript, com uma interface parecida com um aplicativo de celular.
 
